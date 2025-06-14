@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcHub - Free Online Calculator Tools</title>
+    <meta name="description" content="150+ free online calculator tools for financial, mathematical, health, engineering calculations and more. Professional tools that are fast, accurate, and always free.">
+    <meta name="keywords" content="calculator, online calculator, financial calculator, math calculator, BMI calculator, loan calculator">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <i class="fas fa-calculator me-2"></i>
+                    CalcHub
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">150+ Free Calculator Tools</h1>
+            <p class="hero-subtitle">Every tool you need for calculations, all in one place. Fast, accurate, and always free.</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Tools Available</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">17</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Free to Use</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for calculators (e.g., loan, BMI, percentage)..." id="searchInput">
+                <button class="search-btn" onclick="searchCalculators()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Choose Your Calculator Category</h2>
+                <p>Select from our comprehensive collection of professional-grade calculators</p>
+            </div>
+
+            <div class="category-grid">
+                <div class="category-card" onclick="showCategory('financial')">
+                    <div class="category-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3 class="category-title">Financial</h3>
+                    <p class="category-description">Loan, mortgage, investment, and retirement calculators</p>
+                    <span class="category-count">11 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('math')">
+                    <div class="category-icon">
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                    <h3 class="category-title">Mathematics</h3>
+                    <p class="category-description">Algebra, geometry, statistics, and advanced math tools</p>
+                    <span class="category-count">11 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('health')">
+                    <div class="category-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="category-title">Health & Fitness</h3>
+                    <p class="category-description">BMI, calorie, body fat, and fitness calculators</p>
+                    <span class="category-count">9 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('engineering')">
+                    <div class="category-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="category-title">Engineering</h3>
+                    <p class="category-description">Electrical, mechanical, and civil engineering tools</p>
+                    <span class="category-count">6 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('conversion')">
+                    <div class="category-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3 class="category-title">Unit Conversions</h3>
+                    <p class="category-description">Convert between different units and measurements</p>
+                    <span class="category-count">6 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('business')">
+                    <div class="category-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="category-title">Business</h3>
+                    <p class="category-description">ROI, break-even, markup, and business calculations</p>
+                    <span class="category-count">5 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('time')">
+                    <div class="category-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="category-title">Date & Time</h3>
+                    <p class="category-description">Age calculator, date difference, time zones</p>
+                    <span class="category-count">4 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('pdf')">
+                    <div class="category-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3 class="category-title">PDF Tools</h3>
+                    <p class="category-description">PDF merge, split, compress, and converter tools</p>
+                    <span class="category-count">3 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('text')">
+                    <div class="category-icon">
+                        <i class="fas fa-font"></i>
+                    </div>
+                    <h3 class="category-title">Text Tools</h3>
+                    <p class="category-description">Word count, text case converter, and formatting</p>
+                    <span class="category-count">3 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('utility')">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="category-title">Utility Tools</h3>
+                    <p class="category-description">Grade calculator, fuel economy, password strength, and more</p>
+                    <span class="category-count">6 Tools</span>
+                </div>
+                
+                <div class="category-card" onclick="showCategory('science')">
+                    <div class="category-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="category-title">Science</h3>
+                    <p class="category-description">General science calculators and conversion tools</p>
+                    <span class="category-count">12 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('physics')">
+                    <div class="category-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="category-title">Physics</h3>
+                    <p class="category-description">Motion, energy, forces, and other physics calculators</p>
+                    <span class="category-count">14 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('chemistry')">
+                    <div class="category-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3 class="category-title">Chemistry</h3>
+                    <p class="category-description">Chemical formulas, stoichiometry, and solution calculators</p>
+                    <span class="category-count">10 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('construction')">
+                    <div class="category-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3 class="category-title">Construction</h3>
+                    <p class="category-description">Building materials, cost estimation, and measurement tools</p>
+                    <span class="category-count">12 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('crypto')">
+                    <div class="category-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3 class="category-title">Cryptocurrency</h3>
+                    <p class="category-description">Crypto conversion, profit calculation, and mining tools</p>
+                    <span class="category-count">8 Tools</span>
+                </div>
+
+                <div class="category-card" onclick="showCategory('nutrition')">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="category-title">Cooking & Nutrition</h3>
+                    <p class="category-description">Recipe scaling, nutrition facts, and cooking conversion tools</p>
+                    <span class="category-count">10 Tools</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Sections (All Categories) -->
+    <section id="financial-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Financial Calculators</h2>
+                <p>Professional financial tools for loans, investments, and planning</p>
+            </div>
+
+            <div class="tools-grid" id="financial-grid">
+                <!-- Financial tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="math-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Mathematics Calculators</h2>
+                <p>Advanced mathematical tools and calculation engines</p>
+            </div>
+
+            <div class="tools-grid" id="math-grid">
+                <!-- Math tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="health-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Health & Fitness Calculators</h2>
+                <p>Health metrics and fitness calculation tools</p>
+            </div>
+
+            <div class="tools-grid" id="health-grid">
+                <!-- Health tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="engineering-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Engineering Calculators</h2>
+                <p>Professional engineering calculation tools</p>
+            </div>
+
+            <div class="tools-grid" id="engineering-grid">
+                <!-- Engineering tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="conversion-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Unit Conversion Calculators</h2>
+                <p>Convert between different units and measurements</p>
+            </div>
+
+            <div class="tools-grid" id="conversion-grid">
+                <!-- Conversion tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="business-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Business Calculators</h2>
+                <p>Essential business and financial planning tools</p>
+            </div>
+
+            <div class="tools-grid" id="business-grid">
+                <!-- Business tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="time-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Date & Time Calculators</h2>
+                <p>Time-related calculations and conversions</p>
+            </div>
+
+            <div class="tools-grid" id="time-grid">
+                <!-- Time tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pdf-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>PDF Tools</h2>
+                <p>Professional PDF manipulation and conversion tools</p>
+            </div>
+
+            <div class="tools-grid" id="pdf-grid">
+                <!-- PDF tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="text-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Text Tools</h2>
+                <p>Text processing and formatting utilities</p>
+            </div>
+
+            <div class="tools-grid" id="text-grid">
+                <!-- Text tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="utility-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Utility Tools</h2>
+                <p>Essential everyday calculators and utilities</p>
+            </div>
+
+            <div class="tools-grid" id="utility-grid">
+                <!-- Utility tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="science-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Science Calculators</h2>
+                <p>General science calculation tools and converters</p>
+            </div>
+
+            <div class="tools-grid" id="science-grid">
+                <!-- Science tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="physics-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Physics Calculators</h2>
+                <p>Tools for mechanics, energy, thermodynamics, and more</p>
+            </div>
+
+            <div class="tools-grid" id="physics-grid">
+                <!-- Physics tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="chemistry-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Chemistry Calculators</h2>
+                <p>Chemical equations, solutions, and molecular calculations</p>
+            </div>
+
+            <div class="tools-grid" id="chemistry-grid">
+                <!-- Chemistry tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="construction-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Construction Calculators</h2>
+                <p>Building materials, cost estimation, and measurement tools</p>
+            </div>
+
+            <div class="tools-grid" id="construction-grid">
+                <!-- Construction tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="crypto-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Cryptocurrency Calculators</h2>
+                <p>Tools for crypto conversions, mining, and investments</p>
+            </div>
+
+            <div class="tools-grid" id="crypto-grid">
+                <!-- Crypto tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="nutrition-tools" class="tools-section">
+        <div class="container">
+            <button class="back-btn" onclick="showCategories()">
+                <i class="fas fa-arrow-left"></i>
+                Back to Categories
+            </button>
+            
+            <div class="section-title">
+                <h2>Cooking & Nutrition Calculators</h2>
+                <p>Recipe scaling, nutrition facts, and cooking conversion tools</p>
+            </div>
+
+            <div class="tools-grid" id="nutrition-grid">
+                <!-- Nutrition tools will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Modal -->
+    <div id="calculator-modal" class="calculator-modal">
+        <div class="calculator-content">
+            <div class="calculator-header">
+                <h3 class="calculator-title" id="calculator-title">Calculator</h3>
+                <button class="close-btn" onclick="closeCalculator()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div id="calculator-form">
+                <!-- Calculator form will be loaded here -->
+            </div>
+            
+            <div id="result-section" class="result-section">
+                <div class="result-label">Result</div>
+                <div class="result-value" id="result-value">0</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h4 class="footer-title">
+                    <i class="fas fa-calculator me-2"></i>
+                    CalcHub
+                </h4>
+                <p class="footer-text">Your comprehensive destination for all calculator needs. Professional tools that are fast, accurate, and always free.</p>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#privacy">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 CalcHub. All rights reserved. Built with ❤️ for everyone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="assets/js/calculators.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
