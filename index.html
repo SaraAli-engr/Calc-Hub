@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalcHub - Free Online Calculator Tools</title>
-    <meta name="description" content="150+ free online calculator tools for financial, mathematical, health, engineering calculations and more. Professional tools that are fast, accurate, and always free.">
-    <meta name="keywords" content="calculator, online calculator, financial calculator, math calculator, BMI calculator, loan calculator">
+    <meta name="description" content="150+ free online calculator tools for financial, mathematical, health, engineering calculations and more. Professional tools that are fast, accurate, and always free.">    <meta name="keywords" content="calculator, online calculator, financial calculator, math calculator, BMI calculator, loan calculator">
+    
+    <!-- SEO and Social Sharing Meta Tags -->
+    <meta name="author" content="CalcHub">
+    <meta property="og:title" content="CalcHub - Free Online Calculator Tools">
+    <meta property="og:description" content="150+ free online calculator tools for financial, mathematical, health, engineering calculations and more. Professional tools that are fast, accurate, and always free.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://calchub.github.io">
+    <meta property="og:image" content="assets/images/calchub-og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CalcHub - Free Online Calculator Tools">
+    <meta name="twitter:description" content="150+ free online calculator tools for financial, mathematical, health, engineering calculations and more.">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,9 +26,12 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
+      <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -97,8 +111,7 @@
                 <p>Select from our comprehensive collection of professional-grade calculators</p>
             </div>
 
-            <div class="category-grid">
-                <div class="category-card" onclick="showCategory('financial')">
+            <div class="category-grid">                <div class="category-card" data-category="financial" onclick="showCategory('financial')">
                     <div class="category-icon">
                         <i class="fas fa-dollar-sign"></i>
                     </div>
@@ -123,24 +136,19 @@
                     <h3 class="category-title">Health & Fitness</h3>
                     <p class="category-description">BMI, calorie, body fat, and fitness calculators</p>
                     <span class="category-count">9 Tools</span>
-                </div>
-
-                <div class="category-card" onclick="showCategory('engineering')">
+                </div>                <div class="category-card" onclick="showCategory('engineering')">
                     <div class="category-icon">
                         <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3 class="category-title">Engineering</h3>
+                    </div>                    <h3 class="category-title">Engineering</h3>
                     <p class="category-description">Electrical, mechanical, and civil engineering tools</p>
-                    <span class="category-count">6 Tools</span>
-                </div>
-
-                <div class="category-card" onclick="showCategory('conversion')">
+                    <span class="category-count">28 Tools</span>
+                </div><div class="category-card" onclick="showCategory('conversion')">
                     <div class="category-icon">
                         <i class="fas fa-exchange-alt"></i>
                     </div>
                     <h3 class="category-title">Unit Conversions</h3>
                     <p class="category-description">Convert between different units and measurements</p>
-                    <span class="category-count">6 Tools</span>
+                    <span class="category-count">21 Tools</span>
                 </div>
 
                 <div class="category-card" onclick="showCategory('business')">
@@ -245,312 +253,139 @@
         </div>
     </section>
 
-    <!-- Tools Sections (All Categories) -->
+    <!-- Tool sections for each category -->
     <section id="financial-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Financial Calculators</h2>
-                <p>Professional financial tools for loans, investments, and planning</p>
-            </div>
-
-            <div class="tools-grid" id="financial-grid">
-                <!-- Financial tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Financial Calculators</h2>
+            <div class="tools-grid" id="financial-grid"></div>
         </div>
     </section>
 
     <section id="math-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Mathematics Calculators</h2>
-                <p>Advanced mathematical tools and calculation engines</p>
-            </div>
-
-            <div class="tools-grid" id="math-grid">
-                <!-- Math tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Mathematics Calculators</h2>
+            <div class="tools-grid" id="math-grid"></div>
         </div>
     </section>
 
     <section id="health-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Health & Fitness Calculators</h2>
-                <p>Health metrics and fitness calculation tools</p>
-            </div>
-
-            <div class="tools-grid" id="health-grid">
-                <!-- Health tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Health & Fitness Calculators</h2>
+            <div class="tools-grid" id="health-grid"></div>
         </div>
     </section>
 
     <section id="engineering-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Engineering Calculators</h2>
-                <p>Professional engineering calculation tools</p>
-            </div>
-
-            <div class="tools-grid" id="engineering-grid">
-                <!-- Engineering tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Engineering Calculators</h2>
+            <div class="tools-grid" id="engineering-grid"></div>
         </div>
     </section>
 
     <section id="conversion-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Unit Conversion Calculators</h2>
-                <p>Convert between different units and measurements</p>
-            </div>
-
-            <div class="tools-grid" id="conversion-grid">
-                <!-- Conversion tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Conversion Tools</h2>
+            <div class="tools-grid" id="conversion-grid"></div>
         </div>
     </section>
 
     <section id="business-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Business Calculators</h2>
-                <p>Essential business and financial planning tools</p>
-            </div>
-
-            <div class="tools-grid" id="business-grid">
-                <!-- Business tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Business Calculators</h2>
+            <div class="tools-grid" id="business-grid"></div>
         </div>
     </section>
 
     <section id="time-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Date & Time Calculators</h2>
-                <p>Time-related calculations and conversions</p>
-            </div>
-
-            <div class="tools-grid" id="time-grid">
-                <!-- Time tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Date & Time Tools</h2>
+            <div class="tools-grid" id="time-grid"></div>
         </div>
     </section>
 
     <section id="pdf-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>PDF Tools</h2>
-                <p>Professional PDF manipulation and conversion tools</p>
-            </div>
-
-            <div class="tools-grid" id="pdf-grid">
-                <!-- PDF tools will be loaded here -->
-            </div>
+            <h2 class="section-title">PDF Tools</h2>
+            <div class="tools-grid" id="pdf-grid"></div>
         </div>
     </section>
 
     <section id="text-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Text Tools</h2>
-                <p>Text processing and formatting utilities</p>
-            </div>
-
-            <div class="tools-grid" id="text-grid">
-                <!-- Text tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Text Tools</h2>
+            <div class="tools-grid" id="text-grid"></div>
         </div>
     </section>
 
     <section id="utility-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Utility Tools</h2>
-                <p>Essential everyday calculators and utilities</p>
-            </div>
-
-            <div class="tools-grid" id="utility-grid">
-                <!-- Utility tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Utility Tools</h2>
+            <div class="tools-grid" id="utility-grid"></div>
         </div>
     </section>
 
+    <!-- Science Tools Section -->
     <section id="science-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Science Calculators</h2>
-                <p>General science calculation tools and converters</p>
-            </div>
-
-            <div class="tools-grid" id="science-grid">
-                <!-- Science tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Science Calculators</h2>
+            <div class="tools-grid" id="science-grid"></div>
         </div>
     </section>
 
+    <!-- Physics Tools Section -->
     <section id="physics-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Physics Calculators</h2>
-                <p>Tools for mechanics, energy, thermodynamics, and more</p>
-            </div>
-
-            <div class="tools-grid" id="physics-grid">
-                <!-- Physics tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Physics Calculators</h2>
+            <div class="tools-grid" id="physics-grid"></div>
         </div>
     </section>
 
+    <!-- Chemistry Tools Section -->
     <section id="chemistry-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Chemistry Calculators</h2>
-                <p>Chemical equations, solutions, and molecular calculations</p>
-            </div>
-
-            <div class="tools-grid" id="chemistry-grid">
-                <!-- Chemistry tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Chemistry Calculators</h2>
+            <div class="tools-grid" id="chemistry-grid"></div>
         </div>
     </section>
 
-    <section id="construction-tools" class="tools-section">
-        <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Construction Calculators</h2>
-                <p>Building materials, cost estimation, and measurement tools</p>
-            </div>
-
-            <div class="tools-grid" id="construction-grid">
-                <!-- Construction tools will be loaded here -->
-            </div>
-        </div>
-    </section>
-
+    <!-- Cryptocurrency Tools Section -->
     <section id="crypto-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Cryptocurrency Calculators</h2>
-                <p>Tools for crypto conversions, mining, and investments</p>
-            </div>
-
-            <div class="tools-grid" id="crypto-grid">
-                <!-- Crypto tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Cryptocurrency Tools</h2>
+            <div class="tools-grid" id="crypto-grid"></div>
         </div>
     </section>
 
+    <!-- Construction Tools Section -->
+    <section id="construction-tools" class="tools-section">
+        <div class="container">
+            <h2 class="section-title">Construction Calculators</h2>
+            <div class="tools-grid" id="construction-grid"></div>
+        </div>
+    </section>
+
+    <!-- Cooking & Nutrition Tools Section -->
     <section id="nutrition-tools" class="tools-section">
         <div class="container">
-            <button class="back-btn" onclick="showCategories()">
-                <i class="fas fa-arrow-left"></i>
-                Back to Categories
-            </button>
-            
-            <div class="section-title">
-                <h2>Cooking & Nutrition Calculators</h2>
-                <p>Recipe scaling, nutrition facts, and cooking conversion tools</p>
-            </div>
-
-            <div class="tools-grid" id="nutrition-grid">
-                <!-- Nutrition tools will be loaded here -->
-            </div>
+            <h2 class="section-title">Cooking & Nutrition Calculators</h2>
+            <div class="tools-grid" id="nutrition-grid"></div>
         </div>
     </section>
 
     <!-- Calculator Modal -->
-    <div id="calculator-modal" class="calculator-modal">
-        <div class="calculator-content">
-            <div class="calculator-header">
-                <h3 class="calculator-title" id="calculator-title">Calculator</h3>
-                <button class="close-btn" onclick="closeCalculator()">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            
-            <div id="calculator-form">
-                <!-- Calculator form will be loaded here -->
-            </div>
-            
-            <div id="result-section" class="result-section">
-                <div class="result-label">Result</div>
-                <div class="result-value" id="result-value">0</div>
+    <div class="modal fade" id="calculatorModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="calculator-title">Calculator</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="calculator-form"></div>
+                </div>
+                <div class="modal-footer">
+                    <div id="calculator-result" class="w-100"></div>
+                </div>
             </div>
         </div>
     </div>
