@@ -1,0 +1,22 @@
+{
+  "name": "calc-hub",
+  "version": "1.0.0",  "description": "A comprehensive collection of professional calculator tools",
+  "homepage": "https://SaraAli-engr.github.io/Calc-Hub",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build required'"
+  },
+  "keywords": [
+    "calculator",
+    "tools",
+    "math",
+    "finance",
+    "conversion"
+  ],
+  "author": "CalcHub",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
