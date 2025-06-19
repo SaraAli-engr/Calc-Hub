@@ -1,0 +1,40 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.tahir.engineer/sitemap.xml
+
+# Optimize crawl budget
+Crawl-delay: 1
+
+# Allow all search engines to crawl everything
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Disallow common non-content files if they exist
+Disallow: /*.json$
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /package-lock.json
+Disallow: /package.json
+
+# Allow CSS and JS files for proper rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
