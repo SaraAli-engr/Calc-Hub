@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Main Sitemap -->
+    <sitemap>
+        <loc>https://www.tahir.engineer/sitemap.xml</loc>
+        <lastmod>2025-06-18</lastmod>
+    </sitemap>
+    
+    <!-- Blog/Guides Sitemap -->
+    <sitemap>
+        <loc>https://www.tahir.engineer/sitemap-blogs.xml</loc>
+        <lastmod>2025-06-18</lastmod>
+    </sitemap>
+    
+    <!-- Calculator Categories Sitemap -->
+    <sitemap>
+        <loc>https://www.tahir.engineer/sitemap-categories.xml</loc>
+        <lastmod>2025-06-18</lastmod>
+    </sitemap>
+    
+    <!-- Individual Calculators Sitemap -->
+    <sitemap>
+        <loc>https://www.tahir.engineer/sitemap-calculators.xml</loc>
+        <lastmod>2025-06-18</lastmod>
+    </sitemap>
+    
+</sitemapindex>

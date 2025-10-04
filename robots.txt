@@ -1,0 +1,68 @@
+# CalcHub Robots.txt - Optimized for Search Engine Crawling
+
+# Global rules for all search engines
+User-agent: *
+Allow: /
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Crawl-delay: 0.5
+
+# Sitemap location
+Sitemap: https://www.tahir.engineer/sitemap.xml
+Sitemap: https://www.tahir.engineer/sitemap-index.xml
+
+# Googlebot specific (no crawl delay for Google)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Googlebot Image
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Googlebot Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Other major search engines
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Explicitly allow all assets for proper rendering
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Disallow development/system files
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /*.json$
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /.vscode/
+Disallow: /.env
+Disallow: /config/
+
+# Allow important files for verification
+Allow: /sitemap.xml
+Allow: /sitemap-index.xml
+Allow: /robots.txt

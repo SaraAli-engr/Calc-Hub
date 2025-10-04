@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.tahir.engineer/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://www.tahir.engineer/assets/images/calchub-og.png</image:loc>
+            <image:title>CalcHub - Professional Calculator Tools</image:title>
+            <image:caption>150+ free online calculator tools for financial, health, math and engineering calculations</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Static Pages -->
+    <url>
+        <loc>https://www.tahir.engineer/blogs.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://www.tahir.engineer/convertors.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Category Pages -->
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Individual Calculator Pages -->
+
+    <!-- Financial Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/loan.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/mortgage.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/compound-interest.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/investment.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/financial-calculators/savings.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Math Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/percentage.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/fraction.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/algebra.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/quadratic.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/trigonometry.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/scientific-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/statistics-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/matrix-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/geometry-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/calculus-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/number-theory.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/probability-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/complex-numbers.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/sequence-series.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/logarithm-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/polynomial-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/binary-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/math-calculators/windows-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Health Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/bmi.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/calorie.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/body-fat.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/ideal-weight.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/water-intake.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/heart-rate-zone.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/vo2-max.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/pregnancy-due-date.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/ovulation.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/bmi-children.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/macro-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/protein-intake.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/body-measurement.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/sleep-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/hydration-status.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/fitness-level.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/workout-intensity.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/recovery-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/training-load.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/body-age.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/bmr.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/waist-hip-ratio.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/target-heart-rate.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/body-surface-area.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/lean-body-mass.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/resting-energy.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/weight-loss-planner.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/blood-alcohol.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/blood-pressure.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/blood-sugar.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/body-fat-distribution.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/exercise-calories.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/macros-converter.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/meal-planner.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/health-calculators/muscle-mass.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Crypto Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-profit.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-leverage-liquidation.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-futures-pnl.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-lending-returns.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-compound-yield.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-rebalancing.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-stop-loss.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-correlation.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-volume-analysis.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-position-size.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-funding-rate.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-drawdown.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-swing-trade.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-accumulation.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-volatility.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-dca.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-mining.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-converter.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/impermanent-loss.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/staking-rewards.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-arbitrage.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-yield-farming.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-bridge-fees.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-tax-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-hodl-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-rainbow-chart.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-fear-greed.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-hash-rate.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-whale-tracker.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-flash-loan.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-liquidity-pool.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-options-pricing.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-defi-yield.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-nft-valuation.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-gas-optimizer.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-portfolio-tracker.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-leverage-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-sharpe-ratio.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-dollar-hedge.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-momentum-indicator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-technical-levels.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-altcoin-season.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-market-cap-calc.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-pairs-trading.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-grid-trading.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-rsi-calculator.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-funding-arbitrage.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-volatility-smile.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-carry-trade.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-basis-trading.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/crypto-calculators/crypto-social-sentiment.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Physics Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/velocity.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/energy.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/force.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/momentum.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/physics-calculators/power.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Chemistry Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/molarity.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/ph.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/molecular-weight.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/gas-laws.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/chemistry-calculators/stoichiometry.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Engineering Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/ohms-law.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/power-consumption.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/resistor-color.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/voltage-divider.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/capacitor.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/transformer-turns.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/inductor-reactance.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/rc-time-constant.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/rlc-resonance.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/parallel-resistance.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/series-resistance.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/power-factor.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/three-phase-power.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/wire-gauge.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/led-resistor.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/antenna-length.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/decibel-converter.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/impedance-matching.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/filter-frequency.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/amplifier-gain.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/beam-deflection.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/gear-ratio.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/pulley-system.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/hydraulic-pressure.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/spring-constant.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/thermal-expansion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/motor-efficiency.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/engineering-calculators/pipe-flow.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Construction Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/concrete.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/paint.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/brick.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/roof-pitch.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/construction-calculators/flooring.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Conversion Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/length.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/temperature.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/weight.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/area.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/volume.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/speed.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/pressure.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/energy-conversion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/power-conversion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/data-storage.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/angle.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/time-conversion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/frequency.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/currency.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/fuel-economy-conversion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/density.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/force-conversion.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/luminosity.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/magnetic-field.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/radioactivity.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/conversion-tools/torque.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Business Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/roi.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/break-even.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/markup.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/payroll.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/business-calculators/cash-flow.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Time Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/age.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/date-difference.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/time-zone.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/working-days.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/time-calculators/countdown.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    <!-- Utility Calculators -->
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/grade.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/fuel-economy.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/password-strength.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/random-number.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.tahir.engineer/utility-tools/color-picker.html</loc>
+        <lastmod>2025-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+</urlset>

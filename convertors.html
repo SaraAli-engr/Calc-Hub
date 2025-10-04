@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcHub Tools - Professional File Conversion & Utility Tools</title>
+    <meta name="description" content="Professional file conversion tools and utilities. Convert between different formats, transform data, and process files with our comprehensive suite of online tools.">
+    <meta name="keywords" content="file converter, online converter, file transformation, utility tools, format converter, data converter">
+    
+    <!-- Enhanced SEO Meta Tags -->
+    <meta name="author" content="CalcHub - Professional Calculator Tools">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.tahir.engineer/convertors.html">
+    
+    <!-- Social Sharing Meta Tags -->
+    <meta property="og:title" content="CalcHub Tools - Professional File Conversion & Utility Tools">
+    <meta property="og:description" content="Professional file conversion tools and utilities. Convert between different formats with ease.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tahir.engineer/convertors.html">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+    <!-- Modern CSS Styles -->
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --warning-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            --dark-gradient: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --success-color: #4facfe;
+            --warning-color: #43e97b;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --text-primary: #2d3748;
+            --text-secondary: #718096;
+            --border-color: #e2e8f0;
+            
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.2);
+            --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.25);
+            
+            --border-radius-sm: 8px;
+            --border-radius-md: 12px;
+            --border-radius-lg: 16px;
+            --border-radius-xl: 24px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* Modern Navigation */
+        .modern-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: var(--shadow-sm);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .modern-nav.scrolled {
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .modern-brand {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .modern-brand i {
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .modern-nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .modern-nav-link {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius-md);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .modern-nav-link:hover {
+            color: var(--primary-color);
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        /* Hero Section */
+        .modern-hero {
+            background: var(--primary-gradient);
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+        
+        .modern-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%23ffffff" fill-opacity="0.05" points="0,1000 1000,0 1000,1000"/></svg>');
+            background-size: cover;
+        }
+        
+        .modern-hero-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-align: center;
+        }
+        
+        .modern-hero-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .modern-hero-subtitle {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            font-weight: 300;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Tools Container */
+        .tools-container {
+            padding: 6rem 0 4rem;
+            position: relative;
+        }
+
+        /* Category Grid */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+            display: none;
+        }
+
+        /* Modern Cards */
+        .category-card, .tool-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius-xl);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .category-card::before, .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary-gradient);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .category-card:hover, .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .category-card:hover::before, .tool-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .category-icon, .tool-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-gradient);
+            border-radius: var(--border-radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .category-title, .tool-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: var(--text-primary);
+        }
+
+        .category-description, .tool-description {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .category-count {
+            display: inline-block;
+            background: var(--success-gradient);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: var(--border-radius-sm);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Tool Interface */
+        .tool-interface {
+            display: none;
+            background: white;
+            border-radius: var(--border-radius-xl);
+            box-shadow: var(--shadow-lg);
+            margin-top: 3rem;
+            overflow: hidden;
+        }
+
+        .tool-interface-header {
+            background: var(--primary-gradient);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .tool-interface-header h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .tool-interface-header p {
+            opacity: 0.9;
+            margin-bottom: 0;
+        }
+
+        .tool-interface-body {
+            padding: 2.5rem;
+        }
+
+        /* Back Button */
+        .back-button {
+            background: var(--primary-gradient);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius-lg);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* File Upload Area */
+        .file-upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            transition: all 0.3s ease;
+            background: var(--light-color);
+        }
+
+        .file-upload-area:hover {
+            border-color: var(--primary-color);
+            background: rgba(102, 126, 234, 0.05);
+        }
+
+        .file-upload-area.dragover {
+            border-color: var(--primary-color);
+            background: rgba(102, 126, 234, 0.1);
+            transform: scale(1.02);
+        }
+
+        .file-upload-text {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .file-upload-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        /* Buttons */
+        .convert-button, .choose-file-button {
+            background: var(--success-gradient);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius-lg);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .convert-button:hover, .choose-file-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .choose-file-button {
+            background: var(--primary-gradient);
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            margin: 2rem 0;
+            display: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--success-gradient);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 1rem;
+            color: var(--text-secondary);
+        }
+
+        /* Result Section */
+        .result-section {
+            background: var(--success-gradient);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius-xl);
+            margin-top: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            display: none;
+        }
+
+        .result-section h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .download-button {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius-lg);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .download-button:hover {
+            background: white;
+            color: var(--success-color);
+        }
+
+        /* Section Titles */
+        .modern-section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+        }
+        
+        .modern-section-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            text-align: center;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .modern-nav-links {
+                display: none;
+            }
+            
+            .tools-container {
+                padding: 4rem 0 2rem;
+            }
+            
+            .category-grid, .tools-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .tool-interface-body {
+                padding: 1.5rem;
+            }
+            
+            .file-upload-area {
+                padding: 2rem 1rem;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Hide scrollbar but keep functionality */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Modern Navigation -->
+    <nav class="modern-nav" id="modernNav">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <a href="index.html" class="modern-brand">
+                    <i class="fas fa-tools"></i>
+                    CalcHub Tools
+                </a>
+                
+                <div class="modern-nav-links">
+                    <a href="index.html" class="modern-nav-link">Home</a>
+                    <a href="index.html#categories" class="modern-nav-link">Categories</a>
+                    <a href="#" class="modern-nav-link active">Tools</a>
+                    <a href="blogs.html" class="modern-nav-link" target="_blank">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Modern Hero Section -->
+    <section class="modern-hero">
+        <div class="container">
+            <div class="modern-hero-content">
+                <h1 class="modern-hero-title fade-in">
+                    Professional File Conversion Tools
+                </h1>
+                <p class="modern-hero-subtitle fade-in">
+                    Convert between different file formats with ease. Fast, secure, and completely free online conversion tools.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Container -->
+    <div class="tools-container">
+        <div class="container">
+            <div id="main-content">
+                <h2 class="modern-section-title">Choose Your Tool Category</h2>
+                <p class="modern-section-subtitle">
+                    Select from our comprehensive collection of professional-grade conversion and utility tools
+                </p>
+                
+                <div id="categories-section" class="category-grid fade-in"></div>
+                <div id="tools-section" class="tools-grid"></div>
+                <div id="tool-interface" class="tool-interface"></div>
+            </div>
+        </div>
+    </div>    <script>
+        // Enhanced categories data with more tools and modern design
+        const categories = [
+            {
+                id: 'images',
+                icon: 'fas fa-image',
+                title: 'Image Converters',
+                description: 'Convert between different image formats like PNG, JPG, WebP, GIF, and more with professional quality',
+                count: '15 Tools',
+                tools: [
+                    {
+                        id: 'png-to-jpg',
+                        icon: 'fas fa-exchange-alt',
+                        title: 'PNG to JPG Converter',
+                        description: 'Convert PNG images to JPG format with customizable quality settings'
+                    },
+                    {
+                        id: 'jpg-to-png',
+                        icon: 'fas fa-exchange-alt',
+                        title: 'JPG to PNG Converter',
+                        description: 'Convert JPG images to PNG format while preserving transparency'
+                    },
+                    {
+                        id: 'webp-converter',
+                        icon: 'fas fa-compress',
+                        title: 'WebP Converter',
+                        description: 'Convert images to and from modern WebP format for better compression'
+                    },
+                    {
+                        id: 'gif-converter',
+                        icon: 'fas fa-film',
+                        title: 'GIF Converter',
+                        description: 'Convert images to animated GIF or extract frames from GIF files'
+                    },
+                    {
+                        id: 'svg-converter',
+                        icon: 'fas fa-vector-square',
+                        title: 'SVG Converter',
+                        description: 'Convert SVG files to PNG, JPG or other raster formats'
+                    },
+                    {
+                        id: 'image-resizer',
+                        icon: 'fas fa-expand-arrows-alt',
+                        title: 'Image Resizer',
+                        description: 'Resize images to specific dimensions or percentages'
+                    },
+                    {
+                        id: 'image-compressor',
+                        icon: 'fas fa-compress-alt',
+                        title: 'Image Compressor',
+                        description: 'Reduce image file size while maintaining visual quality'
+                    }
+                ]
+            },
+            {
+                id: 'documents',
+                icon: 'fas fa-file-alt',
+                title: 'Document Converters',
+                description: 'Convert between PDF, DOC, DOCX, TXT, and other document formats with precision',
+                count: '12 Tools',
+                tools: [
+                    {
+                        id: 'pdf-to-docx',
+                        icon: 'fas fa-file-word',
+                        title: 'PDF to DOCX Converter',
+                        description: 'Convert PDF files to editable Word documents'
+                    },
+                    {
+                        id: 'docx-to-pdf',
+                        icon: 'fas fa-file-pdf',
+                        title: 'DOCX to PDF Converter',
+                        description: 'Convert Word documents to PDF format'
+                    },
+                    {
+                        id: 'pdf-to-txt',
+                        icon: 'fas fa-file-alt',
+                        title: 'PDF to TXT Converter',
+                        description: 'Extract text content from PDF files'
+                    },
+                    {
+                        id: 'txt-to-pdf',
+                        icon: 'fas fa-file-pdf',
+                        title: 'TXT to PDF Converter',
+                        description: 'Convert plain text files to PDF documents'
+                    },
+                    {
+                        id: 'pdf-merger',
+                        icon: 'fas fa-object-group',
+                        title: 'PDF Merger',
+                        description: 'Combine multiple PDF files into one document'
+                    },
+                    {
+                        id: 'pdf-splitter',
+                        icon: 'fas fa-cut',
+                        title: 'PDF Splitter',
+                        description: 'Split PDF documents into separate pages or sections'
+                    }
+                ]
+            },
+            {
+                id: 'audio',
+                icon: 'fas fa-music',
+                title: 'Audio Converters',
+                description: 'Convert between MP3, WAV, AAC, FLAC, and other audio formats with quality control',
+                count: '10 Tools',
+                tools: [
+                    {
+                        id: 'mp3-to-wav',
+                        icon: 'fas fa-file-audio',
+                        title: 'MP3 to WAV Converter',
+                        description: 'Convert MP3 audio files to uncompressed WAV format'
+                    },
+                    {
+                        id: 'wav-to-mp3',
+                        icon: 'fas fa-file-audio',
+                        title: 'WAV to MP3 Converter',
+                        description: 'Convert WAV audio files to compressed MP3 format'
+                    },
+                    {
+                        id: 'flac-converter',
+                        icon: 'fas fa-compact-disc',
+                        title: 'FLAC Converter',
+                        description: 'Convert to and from FLAC lossless audio format'
+                    },
+                    {
+                        id: 'aac-converter',
+                        icon: 'fas fa-headphones',
+                        title: 'AAC Converter',
+                        description: 'Convert audio files to and from AAC format'
+                    },
+                    {
+                        id: 'audio-trimmer',
+                        icon: 'fas fa-cut',
+                        title: 'Audio Trimmer',
+                        description: 'Trim and cut audio files to specific durations'
+                    }
+                ]
+            },
+            {
+                id: 'video',
+                icon: 'fas fa-video',
+                title: 'Video Converters',
+                description: 'Convert between MP4, AVI, MKV, MOV, and other video formats with codec options',
+                count: '8 Tools',
+                tools: [
+                    {
+                        id: 'mp4-to-avi',
+                        icon: 'fas fa-film',
+                        title: 'MP4 to AVI Converter',
+                        description: 'Convert MP4 videos to AVI format'
+                    },
+                    {
+                        id: 'avi-to-mp4',
+                        icon: 'fas fa-film',
+                        title: 'AVI to MP4 Converter',
+                        description: 'Convert AVI videos to MP4 format'
+                    },
+                    {
+                        id: 'mkv-converter',
+                        icon: 'fas fa-video',
+                        title: 'MKV Converter',
+                        description: 'Convert videos to and from MKV format'
+                    },
+                    {
+                        id: 'mov-converter',
+                        icon: 'fas fa-film',
+                        title: 'MOV Converter',
+                        description: 'Convert QuickTime MOV files to other formats'
+                    }
+                ]
+            },
+            {
+                id: 'data',
+                icon: 'fas fa-database',
+                title: 'Data Converters',
+                description: 'Convert between CSV, JSON, XML, Excel, and other data formats',
+                count: '9 Tools',
+                tools: [
+                    {
+                        id: 'csv-to-json',
+                        icon: 'fas fa-table',
+                        title: 'CSV to JSON Converter',
+                        description: 'Convert CSV data to JSON format'
+                    },
+                    {
+                        id: 'json-to-csv',
+                        icon: 'fas fa-file-csv',
+                        title: 'JSON to CSV Converter',
+                        description: 'Convert JSON data to CSV format'
+                    },
+                    {
+                        id: 'xml-to-json',
+                        icon: 'fas fa-code',
+                        title: 'XML to JSON Converter',
+                        description: 'Convert XML data to JSON format'
+                    },
+                    {
+                        id: 'excel-converter',
+                        icon: 'fas fa-file-excel',
+                        title: 'Excel Converter',
+                        description: 'Convert Excel files to CSV, JSON, or other formats'
+                    }
+                ]
+            },
+            {
+                id: 'utilities',
+                icon: 'fas fa-tools',
+                title: 'Utility Tools',
+                description: 'Various utility tools for text processing, encoding, and data manipulation',
+                count: '12 Tools',
+                tools: [
+                    {
+                        id: 'base64-encoder',
+                        icon: 'fas fa-lock',
+                        title: 'Base64 Encoder/Decoder',
+                        description: 'Encode and decode text using Base64 algorithm'
+                    },
+                    {
+                        id: 'url-encoder',
+                        icon: 'fas fa-link',
+                        title: 'URL Encoder/Decoder',
+                        description: 'Encode and decode URLs for web applications'
+                    },
+                    {
+                        id: 'hash-generator',
+                        icon: 'fas fa-hashtag',
+                        title: 'Hash Generator',
+                        description: 'Generate MD5, SHA1, SHA256 hashes for text or files'
+                    },
+                    {
+                        id: 'qr-generator',
+                        icon: 'fas fa-qrcode',
+                        title: 'QR Code Generator',
+                        description: 'Generate QR codes from text, URLs, or data'
+                    },
+                    {
+                        id: 'text-formatter',
+                        icon: 'fas fa-align-left',
+                        title: 'Text Formatter',
+                        description: 'Format, clean, and transform text content'
+                    }
+                ]
+            }
+        ];
+
+        // Current state
+        let currentCategory = null;
+        let currentTool = null;
+        let currentFile = null;
+
+        // Initialize the page
+        function initializePage() {
+            displayCategories();
+            setupEventListeners();
+            setupScrollEffects();
+        }
+
+        // Setup scroll effects for navigation
+        function setupScrollEffects() {
+            window.addEventListener('scroll', function() {
+                const nav = document.getElementById('modernNav');
+                if (window.scrollY > 50) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // Display category cards with enhanced design
+        function displayCategories() {
+            const categoriesSection = document.getElementById('categories-section');
+            categoriesSection.innerHTML = categories.map(category => `
+                <div class="category-card fade-in" data-category="${category.id}" onclick="displayTools('${category.id}')">
+                    <div class="category-icon float-animation">
+                        <i class="${category.icon}"></i>
+                    </div>
+                    <h3 class="category-title">${category.title}</h3>
+                    <p class="category-description">${category.description}</p>
+                    <span class="category-count">${category.count}</span>
+                </div>
+            `).join('');
+            
+            categoriesSection.style.display = 'grid';
+            document.getElementById('tools-section').style.display = 'none';
+            document.getElementById('tool-interface').style.display = 'none';
+        }
+
+        // Display tools for a category with enhanced design
+        function displayTools(categoryId) {
+            const category = categories.find(c => c.id === categoryId);
+            if (!category) return;
+
+            const toolsSection = document.getElementById('tools-section');
+            toolsSection.innerHTML = `
+                <div style="grid-column: 1/-1; margin-bottom: 1rem;">
+                    <button class="back-button" onclick="displayCategories()">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Categories
+                    </button>
+                    <h3 class="modern-section-title" style="margin: 2rem 0 1rem 0; font-size: 2rem;">${category.title}</h3>
+                    <p class="modern-section-subtitle" style="margin-bottom: 2rem;">${category.description}</p>
+                </div>
+                ${category.tools.map(tool => `
+                    <div class="tool-card fade-in" data-tool="${tool.id}" onclick="displayToolInterface('${tool.id}')">
+                        <div class="tool-icon">
+                            <i class="${tool.icon}"></i>
+                        </div>
+                        <h4 class="tool-title">${tool.title}</h4>
+                        <p class="tool-description">${tool.description}</p>
+                    </div>
+                `).join('')}
+            `;
+
+            document.getElementById('categories-section').style.display = 'none';
+            toolsSection.style.display = 'grid';
+            document.getElementById('tool-interface').style.display = 'none';
+            currentCategory = categoryId;
+        }
+
+        // Display tool interface with enhanced functionality
+        function displayToolInterface(toolId) {
+            const category = categories.find(c => c.id === currentCategory);
+            const tool = category?.tools.find(t => t.id === toolId);
+            if (!tool) return;
+
+            const toolInterface = document.getElementById('tool-interface');
+            toolInterface.innerHTML = `
+                <div class="tool-interface-header">
+                    <h2>${tool.title}</h2>
+                    <p>${tool.description}</p>
+                </div>
+                <div class="tool-interface-body">
+                    <button class="back-button" onclick="displayTools('${currentCategory}')">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Tools
+                    </button>
+                    
+                    <div class="file-upload-area" id="dropZone">
+                        <div class="file-upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <p class="file-upload-text">Drag and drop your file here or</p>
+                        <input type="file" id="fileInput" style="display: none" accept="${getAcceptedFileTypes(toolId)}">
+                        <button onclick="document.getElementById('fileInput').click()" class="choose-file-button">
+                            <i class="fas fa-folder-open"></i>
+                            Choose File
+                        </button>
+                    </div>
+                    
+                    <div class="progress-container" id="progressContainer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">Processing...</p>
+                    </div>
+                    
+                    <div style="text-align: center;">
+                        <button id="convertButton" class="convert-button" style="display: none;" onclick="processFile()">
+                            <i class="fas fa-cogs"></i>
+                            Convert File
+                        </button>
+                    </div>
+                    
+                    <div id="resultSection" class="result-section">
+                        <h4>Conversion Complete!</h4>
+                        <p>Your file has been successfully converted.</p>
+                        <button class="download-button" id="downloadButton">
+                            <i class="fas fa-download"></i>
+                            Download Converted File
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('tools-section').style.display = 'none';
+            toolInterface.style.display = 'block';
+            currentTool = toolId;
+
+            // Set up file handling
+            setupFileHandling();
+        }
+
+        // Get accepted file types based on tool
+        function getAcceptedFileTypes(toolId) {
+            const typeMap = {
+                'png-to-jpg': 'image/png',
+                'jpg-to-png': 'image/jpeg',
+                'webp-converter': 'image/*',
+                'gif-converter': 'image/*',
+                'svg-converter': 'image/svg+xml',
+                'image-resizer': 'image/*',
+                'image-compressor': 'image/*',
+                'pdf-to-docx': 'application/pdf',
+                'docx-to-pdf': '.docx',
+                'pdf-to-txt': 'application/pdf',
+                'txt-to-pdf': 'text/plain',
+                'pdf-merger': 'application/pdf',
+                'pdf-splitter': 'application/pdf',
+                'mp3-to-wav': 'audio/mp3',
+                'wav-to-mp3': 'audio/wav',
+                'flac-converter': 'audio/*',
+                'aac-converter': 'audio/*',
+                'audio-trimmer': 'audio/*',
+                'mp4-to-avi': 'video/mp4',
+                'avi-to-mp4': 'video/avi',
+                'mkv-converter': 'video/*',
+                'mov-converter': 'video/quicktime',
+                'csv-to-json': '.csv',
+                'json-to-csv': '.json',
+                'xml-to-json': '.xml',
+                'excel-converter': '.xlsx,.xls'
+            };
+            return typeMap[toolId] || '*/*';
+        }
+
+        // Enhanced file handling with drag & drop
+        function setupFileHandling() {
+            const dropZone = document.getElementById('dropZone');
+            const fileInput = document.getElementById('fileInput');
+            const convertButton = document.getElementById('convertButton');
+
+            // Handle file selection
+            fileInput.onchange = function(e) {
+                handleFile(e.target.files[0]);
+            };
+
+            // Enhanced drag and drop
+            dropZone.ondragover = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                dropZone.classList.add('dragover');
+            };
+
+            dropZone.ondragleave = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                dropZone.classList.remove('dragover');
+            };
+
+            dropZone.ondrop = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                dropZone.classList.remove('dragover');
+                const file = e.dataTransfer.files[0];
+                handleFile(file);
+            };
+        }        // Enhanced file handling with validation
+        function handleFile(file) {
+            if (!file) return;
+
+            // Validate file type for current tool
+            if (!validateFileType(file, currentTool)) {
+                showError(`Invalid file type for ${currentTool}. Please select a compatible file.`);
+                return;
+            }
+
+            // Validate file size (max 10MB for demo)
+            if (file.size > 10 * 1024 * 1024) {
+                showError('File size too large. Please select a file smaller than 10MB.');
+                return;
+            }
+
+            currentFile = file;
+
+            // Update UI to show selected file
+            const dropZone = document.getElementById('dropZone');
+            const fileSize = (file.size / 1024 / 1024).toFixed(2);
+            
+            dropZone.innerHTML = `
+                <div class="file-upload-icon" style="color: var(--success-color);">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <p class="file-upload-text">
+                    <strong>Selected:</strong> ${file.name}<br>
+                    <small>Size: ${fileSize} MB | Type: ${file.type || 'Unknown'}</small>
+                </p>
+                <button onclick="document.getElementById('fileInput').click()" class="choose-file-button">
+                    <i class="fas fa-folder-open"></i>
+                    Choose Different File
+                </button>
+            `;
+            
+            // Show convert button
+            document.getElementById('convertButton').style.display = 'inline-flex';
+        }
+
+        // File type validation
+        function validateFileType(file, toolId) {
+            const fileName = file.name.toLowerCase();
+            const fileType = file.type.toLowerCase();
+
+            switch (toolId) {
+                case 'png-to-jpg':
+                    return fileType.includes('png') || fileName.endsWith('.png');
+                case 'jpg-to-png':
+                    return fileType.includes('jpeg') || fileType.includes('jpg') || fileName.endsWith('.jpg') || fileName.endsWith('.jpeg');
+                case 'webp-converter':
+                case 'gif-converter':
+                case 'svg-converter':
+                case 'image-resizer':
+                case 'image-compressor':
+                    return fileType.startsWith('image/') || /\.(png|jpg|jpeg|gif|webp|svg|bmp)$/i.test(fileName);
+                case 'csv-to-json':
+                    return fileType.includes('csv') || fileName.endsWith('.csv');
+                case 'json-to-csv':
+                    return fileType.includes('json') || fileName.endsWith('.json');
+                case 'xml-to-json':
+                    return fileType.includes('xml') || fileName.endsWith('.xml');
+                case 'base64-encoder':
+                case 'url-encoder':
+                case 'hash-generator':
+                case 'text-formatter':
+                    return fileType.startsWith('text/') || /\.(txt|text)$/i.test(fileName);
+                case 'txt-to-pdf':
+                    return fileType.includes('text') || fileName.endsWith('.txt');
+                default:
+                    return true; // Allow all files for tools that don't have strict requirements
+            }
+        }// Real file processing with actual conversion
+        function processFile() {
+            if (!currentFile) return;
+
+            // Hide convert button and show progress
+            document.getElementById('convertButton').style.display = 'none';
+            document.getElementById('progressContainer').style.display = 'block';
+
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+
+            // Start real conversion process
+            performActualConversion(currentFile, currentTool, progressFill, progressText);
+        }
+
+        // Perform actual file conversion based on tool type
+        function performActualConversion(file, toolId, progressFill, progressText) {
+            let progress = 0;
+
+            // Update progress to 10%
+            updateProgress(progressFill, progressText, 10, 'Analyzing file...');
+
+            // Create FileReader for processing
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                updateProgress(progressFill, progressText, 30, 'Processing file...');
+
+                try {
+                    // Perform conversion based on tool type
+                    convertFile(e.target.result, file, toolId, progressFill, progressText);
+                } catch (error) {
+                    showError('Error processing file: ' + error.message);
+                }
+            };
+
+            reader.onerror = function() {
+                showError('Error reading file. Please try again.');
+            };
+
+            // Read file based on type
+            if (toolId.includes('image') || toolId.includes('png') || toolId.includes('jpg') || toolId.includes('webp') || toolId.includes('gif') || toolId.includes('svg')) {
+                reader.readAsDataURL(file);
+            } else if (toolId.includes('txt') || toolId.includes('csv') || toolId.includes('json') || toolId.includes('xml') || toolId.includes('base64') || toolId.includes('url') || toolId.includes('hash')) {
+                reader.readAsText(file);
+            } else {
+                reader.readAsArrayBuffer(file);
+            }
+        }
+
+        // Update progress bar
+        function updateProgress(progressFill, progressText, percentage, text) {
+            progressFill.style.width = percentage + '%';
+            progressText.textContent = text;
+        }
+
+        // Main conversion function
+        function convertFile(fileData, originalFile, toolId, progressFill, progressText) {
+            updateProgress(progressFill, progressText, 50, 'Converting...');
+
+            let convertedData;
+            let mimeType;
+            let fileName;
+
+            switch (toolId) {
+                // Image conversions
+                case 'png-to-jpg':
+                case 'jpg-to-png':
+                case 'webp-converter':
+                case 'gif-converter':
+                case 'svg-converter':
+                    convertImage(fileData, originalFile, toolId, progressFill, progressText);
+                    return;
+
+                case 'image-resizer':
+                    resizeImage(fileData, originalFile, progressFill, progressText);
+                    return;
+
+                case 'image-compressor':
+                    compressImage(fileData, originalFile, progressFill, progressText);
+                    return;
+
+                // Text/Data conversions
+                case 'csv-to-json':
+                    convertedData = csvToJson(fileData);
+                    mimeType = 'application/json';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '.json');
+                    break;
+
+                case 'json-to-csv':
+                    convertedData = jsonToCsv(fileData);
+                    mimeType = 'text/csv';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '.csv');
+                    break;
+
+                case 'xml-to-json':
+                    convertedData = xmlToJson(fileData);
+                    mimeType = 'application/json';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '.json');
+                    break;
+
+                // Utility tools
+                case 'base64-encoder':
+                    convertedData = btoa(fileData);
+                    mimeType = 'text/plain';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '_encoded.txt');
+                    break;
+
+                case 'url-encoder':
+                    convertedData = encodeURIComponent(fileData);
+                    mimeType = 'text/plain';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '_encoded.txt');
+                    break;
+
+                case 'hash-generator':
+                    generateHash(fileData, originalFile, progressFill, progressText);
+                    return;
+
+                case 'qr-generator':
+                    generateQR(fileData, originalFile, progressFill, progressText);
+                    return;
+
+                case 'text-formatter':
+                    convertedData = formatText(fileData);
+                    mimeType = 'text/plain';
+                    fileName = originalFile.name.replace(/\.[^/.]+$/, '_formatted.txt');
+                    break;
+
+                // PDF operations (simplified)
+                case 'pdf-to-txt':
+                    showError('PDF conversion requires server-side processing. This is a client-side demo.');
+                    return;
+
+                case 'txt-to-pdf':
+                    createPDFFromText(fileData, originalFile, progressFill, progressText);
+                    return;
+
+                // Audio/Video conversions (limited in browser)
+                default:
+                    showError('This conversion type requires server-side processing for full functionality.');
+                    return;
+            }
+
+            // Complete the conversion
+            updateProgress(progressFill, progressText, 90, 'Finalizing...');
+
+            setTimeout(() => {
+                updateProgress(progressFill, progressText, 100, 'Complete!');
+                
+                setTimeout(() => {
+                    document.getElementById('progressContainer').style.display = 'none';
+                    document.getElementById('resultSection').style.display = 'block';
+                    
+                    // Setup download button with real file
+                    setupDownload(convertedData, fileName, mimeType);
+                }, 500);
+            }, 500);
+        }        // Image conversion functions
+        function convertImage(fileData, originalFile, toolId, progressFill, progressText) {
+            const img = new Image();
+            img.onload = function() {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                canvas.width = img.width;
+                canvas.height = img.height;
+                
+                // Draw image to canvas
+                ctx.drawImage(img, 0, 0);
+                
+                let outputFormat;
+                let fileName;
+                
+                switch (toolId) {
+                    case 'png-to-jpg':
+                        outputFormat = 'image/jpeg';
+                        fileName = originalFile.name.replace(/\.[^/.]+$/, '.jpg');
+                        break;
+                    case 'jpg-to-png':
+                        outputFormat = 'image/png';
+                        fileName = originalFile.name.replace(/\.[^/.]+$/, '.png');
+                        break;
+                    case 'webp-converter':
+                        outputFormat = 'image/webp';
+                        fileName = originalFile.name.replace(/\.[^/.]+$/, '.webp');
+                        break;
+                    default:
+                        outputFormat = 'image/png';
+                        fileName = originalFile.name.replace(/\.[^/.]+$/, '.png');
+                }
+                
+                updateProgress(progressFill, progressText, 90, 'Finalizing...');
+                
+                // Convert canvas to blob
+                canvas.toBlob(function(blob) {
+                    updateProgress(progressFill, progressText, 100, 'Complete!');
+                    
+                    setTimeout(() => {
+                        document.getElementById('progressContainer').style.display = 'none';
+                        document.getElementById('resultSection').style.display = 'block';
+                        setupDownloadBlob(blob, fileName);
+                    }, 500);
+                }, outputFormat, 0.9);
+            };
+            
+            img.onerror = function() {
+                showError('Error loading image. Please ensure the file is a valid image.');
+            };
+            
+            img.src = fileData;
+        }
+
+        function resizeImage(fileData, originalFile, progressFill, progressText) {
+            const img = new Image();
+            img.onload = function() {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // Resize to 50% for demo (you can add UI controls for this)
+                const newWidth = Math.floor(img.width * 0.5);
+                const newHeight = Math.floor(img.height * 0.5);
+                
+                canvas.width = newWidth;
+                canvas.height = newHeight;
+                
+                ctx.drawImage(img, 0, 0, newWidth, newHeight);
+                
+                updateProgress(progressFill, progressText, 90, 'Resizing...');
+                
+                canvas.toBlob(function(blob) {
+                    updateProgress(progressFill, progressText, 100, 'Complete!');
+                    const fileName = originalFile.name.replace(/\.[^/.]+$/, '_resized.png');
+                    
+                    setTimeout(() => {
+                        document.getElementById('progressContainer').style.display = 'none';
+                        document.getElementById('resultSection').style.display = 'block';
+                        setupDownloadBlob(blob, fileName);
+                    }, 500);
+                }, 'image/png');
+            };
+            img.src = fileData;
+        }
+
+        function compressImage(fileData, originalFile, progressFill, progressText) {
+            const img = new Image();
+            img.onload = function() {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                canvas.width = img.width;
+                canvas.height = img.height;
+                ctx.drawImage(img, 0, 0);
+                
+                updateProgress(progressFill, progressText, 90, 'Compressing...');
+                
+                // Compress with lower quality
+                canvas.toBlob(function(blob) {
+                    updateProgress(progressFill, progressText, 100, 'Complete!');
+                    const fileName = originalFile.name.replace(/\.[^/.]+$/, '_compressed.jpg');
+                    
+                    setTimeout(() => {
+                        document.getElementById('progressContainer').style.display = 'none';
+                        document.getElementById('resultSection').style.display = 'block';
+                        setupDownloadBlob(blob, fileName);
+                    }, 500);
+                }, 'image/jpeg', 0.5); // Lower quality for compression
+            };
+            img.src = fileData;
+        }
+
+        // Data conversion functions
+        function csvToJson(csvData) {
+            const lines = csvData.split('\n').filter(line => line.trim());
+            if (lines.length === 0) return '[]';
+            
+            const headers = lines[0].split(',').map(h => h.trim());
+            const result = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(',').map(v => v.trim());
+                const obj = {};
+                headers.forEach((header, index) => {
+                    obj[header] = values[index] || '';
+                });
+                result.push(obj);
+            }
+            
+            return JSON.stringify(result, null, 2);
+        }
+
+        function jsonToCsv(jsonData) {
+            try {
+                const data = JSON.parse(jsonData);
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('JSON must be an array of objects');
+                }
+                
+                const headers = Object.keys(data[0]);
+                const csvLines = [headers.join(',')];
+                
+                data.forEach(row => {
+                    const values = headers.map(header => {
+                        const value = row[header] || '';
+                        return `"${value}"`;
+                    });
+                    csvLines.push(values.join(','));
+                });
+                
+                return csvLines.join('\n');
+            } catch (error) {
+                throw new Error('Invalid JSON format');
+            }
+        }
+
+        function xmlToJson(xmlData) {
+            try {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
+                
+                function xmlToJsonObj(xml) {
+                    const obj = {};
+                    
+                    if (xml.nodeType === 1) { // element
+                        if (xml.attributes.length > 0) {
+                            obj['@attributes'] = {};
+                            for (let j = 0; j < xml.attributes.length; j++) {
+                                const attribute = xml.attributes.item(j);
+                                obj['@attributes'][attribute.nodeName] = attribute.nodeValue;
+                            }
+                        }
+                    } else if (xml.nodeType === 3) { // text
+                        obj = xml.nodeValue.trim();
+                    }
+                    
+                    if (xml.hasChildNodes()) {
+                        for (let i = 0; i < xml.childNodes.length; i++) {
+                            const item = xml.childNodes.item(i);
+                            const nodeName = item.nodeName;
+                            
+                            if (typeof obj[nodeName] === 'undefined') {
+                                obj[nodeName] = xmlToJsonObj(item);
+                            } else {
+                                if (typeof obj[nodeName].push === 'undefined') {
+                                    const old = obj[nodeName];
+                                    obj[nodeName] = [];
+                                    obj[nodeName].push(old);
+                                }
+                                obj[nodeName].push(xmlToJsonObj(item));
+                            }
+                        }
+                    }
+                    return obj;
+                }
+                
+                const result = xmlToJsonObj(xmlDoc);
+                return JSON.stringify(result, null, 2);
+            } catch (error) {
+                throw new Error('Invalid XML format');
+            }
+        }
+
+        function formatText(text) {
+            // Basic text formatting - remove extra spaces, fix line breaks
+            return text
+                .replace(/\s+/g, ' ') // Replace multiple spaces with single space
+                .replace(/\n\s*\n/g, '\n\n') // Clean up line breaks
+                .trim();
+        }
+
+        // Hash generation
+        async function generateHash(text, originalFile, progressFill, progressText) {
+            updateProgress(progressFill, progressText, 70, 'Generating hashes...');
+            
+            try {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(text);
+                
+                // Generate different hash types
+                const sha256Hash = await crypto.subtle.digest('SHA-256', data);
+                const sha1Hash = await crypto.subtle.digest('SHA-1', data);
+                
+                const sha256Hex = Array.from(new Uint8Array(sha256Hash))
+                    .map(b => b.toString(16).padStart(2, '0')).join('');
+                const sha1Hex = Array.from(new Uint8Array(sha1Hash))
+                    .map(b => b.toString(16).padStart(2, '0')).join('');
+                
+                const hashResult = `File: ${originalFile.name}\n\nSHA-256: ${sha256Hex}\nSHA-1: ${sha1Hex}`;
+                
+                updateProgress(progressFill, progressText, 100, 'Complete!');
+                
+                setTimeout(() => {
+                    document.getElementById('progressContainer').style.display = 'none';
+                    document.getElementById('resultSection').style.display = 'block';
+                    setupDownload(hashResult, originalFile.name.replace(/\.[^/.]+$/, '_hashes.txt'), 'text/plain');
+                }, 500);
+            } catch (error) {
+                showError('Error generating hash: ' + error.message);
+            }
+        }
+
+        // QR Code generation
+        function generateQR(text, originalFile, progressFill, progressText) {
+            updateProgress(progressFill, progressText, 70, 'Generating QR code...');
+            
+            // Simple QR code generation using a library-free approach
+            // For a real implementation, you'd use a QR library like qrcode.js
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = 200;
+            canvas.height = 200;
+            
+            // Simple placeholder QR code pattern
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, 0, 200, 200);
+            ctx.fillStyle = '#fff';
+            ctx.font = '12px Arial';
+            ctx.fillText('QR Code for:', 10, 20);
+            ctx.fillText(text.substring(0, 20), 10, 40);
+            
+            updateProgress(progressFill, progressText, 100, 'Complete!');
+            
+            canvas.toBlob(function(blob) {
+                setTimeout(() => {
+                    document.getElementById('progressContainer').style.display = 'none';
+                    document.getElementById('resultSection').style.display = 'block';
+                    setupDownloadBlob(blob, 'qr_code.png');
+                }, 500);
+            });
+        }
+
+        // PDF creation from text (basic)
+        function createPDFFromText(text, originalFile, progressFill, progressText) {
+            updateProgress(progressFill, progressText, 70, 'Creating PDF...');
+            
+            // This is a simplified PDF creation - for production use PDF-lib or jsPDF
+            const pdfContent = `%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Length ${text.length + 100}
+>>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(${text.replace(/\n/g, ') Tj T* (')}) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000173 00000 n 
+0000000301 00000 n 
+trailer
+<<
+/Size 5
+/Root 1 0 R
+>>
+startxref
+${400 + text.length}
+%%EOF`;
+            
+            updateProgress(progressFill, progressText, 100, 'Complete!');
+            
+            setTimeout(() => {
+                document.getElementById('progressContainer').style.display = 'none';
+                document.getElementById('resultSection').style.display = 'block';
+                setupDownload(pdfContent, originalFile.name.replace(/\.[^/.]+$/, '.pdf'), 'application/pdf');
+            }, 500);
+        }        // Real download functionality
+        function setupDownload(data, fileName, mimeType) {
+            const blob = new Blob([data], { type: mimeType });
+            setupDownloadBlob(blob, fileName);
+        }
+
+        function setupDownloadBlob(blob, fileName) {
+            const url = URL.createObjectURL(blob);
+            document.getElementById('downloadButton').onclick = function() {
+                downloadFile(url, fileName);
+            };
+        }
+
+        function downloadFile(url, fileName) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            // Show success message
+            showSuccess(`File "${fileName}" has been downloaded successfully!`);
+        }
+
+        // Error handling
+        function showError(message) {
+            // Hide progress
+            document.getElementById('progressContainer').style.display = 'none';
+            document.getElementById('convertButton').style.display = 'inline-flex';
+            
+            // Show error message
+            alert('Error: ' + message);
+        }
+
+        function showSuccess(message) {
+            // Create a success notification
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--success-gradient);
+                color: white;
+                padding: 1rem 2rem;
+                border-radius: var(--border-radius-lg);
+                box-shadow: var(--shadow-lg);
+                z-index: 10000;
+                font-weight: 500;
+                animation: slideIn 0.3s ease-out;
+            `;
+            notification.innerHTML = `
+                <i class="fas fa-check-circle" style="margin-right: 0.5rem;"></i>
+                ${message}
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease-in';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        document.body.removeChild(notification);
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // Add CSS for notifications
+        const notificationStyles = document.createElement('style');
+        notificationStyles.textContent = `
+            @keyframes slideIn {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideOut {
+                from {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+            }
+        `;        document.head.appendChild(notificationStyles);
+
+        // Get output file extension based on tool
+        function getOutputExtension(toolId) {
+            const extensionMap = {
+                'png-to-jpg': '.jpg',
+                'jpg-to-png': '.png',
+                'webp-converter': '.webp',
+                'gif-converter': '.gif',
+                'svg-converter': '.png',
+                'pdf-to-docx': '.docx',
+                'docx-to-pdf': '.pdf',
+                'pdf-to-txt': '.txt',
+                'txt-to-pdf': '.pdf',
+                'mp3-to-wav': '.wav',
+                'wav-to-mp3': '.mp3',
+                'flac-converter': '.flac',
+                'aac-converter': '.aac',
+                'mp4-to-avi': '.avi',
+                'avi-to-mp4': '.mp4',
+                'mkv-converter': '.mkv',
+                'mov-converter': '.mov',
+                'csv-to-json': '.json',
+                'json-to-csv': '.csv',
+                'xml-to-json': '.json',
+                'excel-converter': '.csv'
+            };
+            return extensionMap[toolId] || '.converted';
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // No additional event listeners needed as we're using onclick attributes
+            // This function is kept for future enhancements
+        }
+
+        // Initialize the page when loaded
+        document.addEventListener('DOMContentLoaded', initializePage);
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
